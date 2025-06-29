@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainContent />} />
+      <Route path="/Manana" element={<MainContent />} />
       <Route path="/Forgive_Me" element={<ForgiveMe />} />
       <Route path="/Our_Moments" element={<OurMoments />} />
     </Routes>
