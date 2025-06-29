@@ -64,7 +64,7 @@ function ForgiveMe() {
           <span>{emojisOnly}</span>
         </p>
       </div>
-      <div className="flex justify-evenly border gap-2">
+      <div className="flex justify-evenly gap-2">
   {!isForgiven && (
     <button
       className="text-xl text-white flex gap-4 bg-gradient-to-tr from-rose-300 to-pink-400 items-center border border-white rounded-2xl px-5 py-2"
