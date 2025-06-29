@@ -52,9 +52,9 @@ function ForgiveMe() {
   const emojisOnly = currentImage.text.match(/[\u{1F300}-\u{1FAFF}]/gu)?.join("") || "";
 
   return (
-    <div className="flex flex-col justify-evenly gap-5 border h-[100vh]">
-      <div className="card p-2 flex flex-col gap-10 border items-center justify-center">
-        <div className="imagediv p-2 border rounded-full">
+    <div className="flex flex-col justify-evenly gap-5  h-[100vh]">
+      <div className="card p-2 flex flex-col gap-10  items-center justify-center">
+        <div className="imagediv p-2 rounded-full">
             <img src={currentImage.src} alt="" className="rounded-full w-72 h-72 object-contain"/>
         </div>
         <p className="p-2 text-xl text-justify">
